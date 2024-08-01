@@ -24,7 +24,7 @@ ScreenNode:Destroy()
 ```
 Used to destroy the ScreenNode and all associated instances
 
-# Events
+## Events
 ```luau
 local newScreenNode = ScreenNode.new('Frame',nil,Vector3.zero)
 newScreenNode.OnScreenChanged.Event:Connect(function(onScreen:boolean)
