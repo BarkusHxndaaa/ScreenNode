@@ -26,7 +26,7 @@ Used to destroy the ScreenNode and all associated instances
 
 ## Events
 ```luau
-local newScreenNode = ScreenNode.new('Frame',nil,Vector3.zero)
+local newScreenNode = ScreenNode.new('Frame',{BackgroundColor3 = Color3.new(1,1,1),Size = UDim2.fromOffset(20,20)},Vector3.zero)
 newScreenNode.OnScreenChanged.Event:Connect(function(onScreen:boolean)
   print(`Is on screen - {onScreen}`)
 end)
