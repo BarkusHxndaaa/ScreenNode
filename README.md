@@ -12,7 +12,7 @@ Used to create a new ScreenNode. You can pass a pre-existing GuiObject or create
 ```luau
 ScreenNode:StartRendering()
 ```
-Used to start rendering the ScreenNode. Will error if the ScreenNode GuoObject instance was destroyed.
+Used to start rendering the ScreenNode. Will error if the ScreenNode GuiObject instance was destroyed.
 
 ```luau
 ScreenNode:StopRendering()
