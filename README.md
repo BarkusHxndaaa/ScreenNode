@@ -15,7 +15,7 @@ ScreenNode:StartRendering()
 Used to start rendering the ScreenNode. Will error if the ScreenNode GuiObject instance was destroyed.
 
 ```luau
-ScreenNode:StopRendering()
+ScreenNode:StopRendering(hideObject:boolean)
 ```
 Used to stop rendering the ScreenNode.
 
